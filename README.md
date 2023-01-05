@@ -7,8 +7,8 @@ Integration between AlpineJS and the editable.js library
 ### CDN
 
 ```html
-<script defer src="https://unpkg.com/alpine-editable@1.0.0/dist/cdn.min.js">
-<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js">
+<script defer src="https://unpkg.com/alpine-editable@1.0.0/dist/cdn.min.js"></script>
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 ```
 
 ### As module
