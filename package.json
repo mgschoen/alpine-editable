@@ -1,0 +1,21 @@
+{
+  "name": "alpine-editable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/module.cjs.js",
+  "module": "dist/module.esm.js",
+  "unpkg": "dist/cdn.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgschoen/alpine-editable.git"
+  },
+  "author": "Martin Schön",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mgschoen/alpine-editable/issues"
+  },
+  "homepage": "https://github.com/mgschoen/alpine-editable#readme",
+  "dependencies": {
+    "@livingdocs/editable.js": "^3.1.4"
+  }
+}
