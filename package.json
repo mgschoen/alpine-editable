@@ -20,5 +20,10 @@
   },
   "devDependencies": {
     "esbuild": "0.16.14"
+  },
+  "scripts": {
+    "cdn": "esbuild builds/cdn.js --outfile=dist/cdn.min.js --bundle --minify",
+    "cjs": "esbuild builds/module.js --outfile=dist/module.cjs.js --format=cjs",
+    "esm": "esbuild builds/module.js --outfile=dist/module.esm.js --format=esm"
   }
 }
