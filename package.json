@@ -17,5 +17,8 @@
   "homepage": "https://github.com/mgschoen/alpine-editable#readme",
   "dependencies": {
     "@livingdocs/editable.js": "^3.1.4"
+  },
+  "devDependencies": {
+    "esbuild": "0.16.14"
   }
 }
