@@ -40,3 +40,21 @@ Forwards editable.js events as DOM events on the element.
     @editable-change="title = $event.target.innerHTML"
 ></div>
 ```
+
+### $editable
+
+Exposes the global editable.js instance to Alpine.
+
+```html
+<div
+    x-data="{ text: 'foo' }"
+    x-editable="text"
+    x-ref="editable"
+></div>
+
+<button
+    @click="const text = $editable.getContent($refs.editable); await navigator.clipboard.writeText(text);"
+>
+    Copy to Clipboard
+</button>
+```
