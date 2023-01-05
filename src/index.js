@@ -1,4 +1,4 @@
-import Editable from '@livingdocs/editable.js';
+import { Editable } from '@livingdocs/editable.js';
 
 // create global Editable instance
 const editable = new Editable({
