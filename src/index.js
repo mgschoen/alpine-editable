@@ -6,7 +6,25 @@ const editable = new Editable({
 });
 
 // foward all editable events to DOM
-const events = ["focus", "blur", "selection", "cursor", "change", "spellcheckUpdated", "clipboard", "insert", "split", "merge", "switch", "newline"];
+const events = [
+    'blur',
+    'change',
+    'clipboard',
+    'cursor',
+    'empty',
+    'flow',
+    'focus',
+    'insert',
+    'merge',
+    'move',
+    'newline',
+    'paste',
+    'selection',
+    'selectToBoundary',
+    'spellcheckUpdated',
+    'split',
+    'switch',
+];
 events.forEach((eventName) => {
     editable.on(eventName, (element, ...args) => {
         const customEvent = new CustomEvent(`editable-${eventName}`, { detail: args });
