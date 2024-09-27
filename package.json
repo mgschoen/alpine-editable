@@ -3,7 +3,7 @@
   "version": "1.3.0",
   "description": "",
   "main": "dist/module.cjs.js",
-  "module": "dist/module.esm.js",
+  "module": "dist/esm.min.js",
   "unpkg": "dist/cdn.min.js",
   "repository": {
     "type": "git",
@@ -24,6 +24,6 @@
   "scripts": {
     "cdn": "esbuild builds/cdn.js --outfile=dist/cdn.min.js --bundle --minify",
     "cjs": "esbuild builds/module.js --outfile=dist/module.cjs.js --format=cjs",
-    "esm": "esbuild builds/module.js --outfile=dist/module.esm.js --bundle --minify --format=esm"
+    "esm": "esbuild builds/module.js --outfile=dist/esm.min.js --bundle --minify --format=esm"
   }
 }
