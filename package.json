@@ -19,7 +19,7 @@
     "@livingdocs/editable.js": "^5.0.8"
   },
   "devDependencies": {
-    "esbuild": "0.16.14"
+    "esbuild": "^0.24.0"
   },
   "scripts": {
     "cdn": "esbuild builds/cdn.js --outfile=dist/cdn.min.js --bundle --minify",
